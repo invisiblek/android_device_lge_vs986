@@ -17,10 +17,10 @@
 # inherit from common g4
 -include device/lge/g4-common/BoardConfigCommon.mk
 
-TARGET_OTA_ASSERT_DEVICE := g4,p1,h815
+TARGET_OTA_ASSERT_DEVICE := g4,p1,vs986
 
 # Kernel
-TARGET_KERNEL_CONFIG := cyanogenmod_h815_defconfig
+TARGET_KERNEL_CONFIG := cyanogenmod_vs986_defconfig
 
 # inherit from the proprietary version
--include vendor/lge/h815/BoardConfigVendor.mk
+-include vendor/lge/vs986/BoardConfigVendor.mk

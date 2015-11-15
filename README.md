@@ -1,6 +1,6 @@
 Copyright 2015 - The CyanogenMod Project
 
-Device configuration for LG G4 (International).
+Device configuration for LG G4 (Verizon).
 =====================================
 
 Basic   | Spec Sheet
