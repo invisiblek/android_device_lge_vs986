@@ -22,5 +22,8 @@ TARGET_OTA_ASSERT_DEVICE := g4,p1,vs986
 # Kernel
 TARGET_KERNEL_CONFIG := cyanogenmod_vs986_defconfig
 
+# RIL
+BOARD_RIL_CLASS := ../../../device/lge/vs986/ril/
+
 # inherit from the proprietary version
 -include vendor/lge/vs986/BoardConfigVendor.mk
