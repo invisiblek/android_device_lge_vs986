@@ -1,12 +1,10 @@
 $(call inherit-product, device/lge/vs986/full_vs986.mk)
 
-# Inherit some common CM stuff.
-$(call inherit-product, vendor/cm/config/common_full_phone.mk)
+# Inherit some common Carbon stuff.
+$(call inherit-product, vendor/carbon/config/cdma.mk)
+$(call inherit-product, vendor/carbon/config/common.mk)
 
-# Enhanced NFC
-$(call inherit-product, vendor/cm/config/nfc_enhanced.mk)
-
-PRODUCT_NAME := cm_vs986
+PRODUCT_NAME := carbon_vs986
 
 PRODUCT_BUILD_PROP_OVERRIDES += \
     PRODUCT_DEVICE="g4" \
